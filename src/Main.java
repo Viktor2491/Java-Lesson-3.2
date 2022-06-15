@@ -3,7 +3,7 @@ public class Main {
         int balance = 100; // Первоначальный баланс
         int payment = 100; // Платеж
         int bonus; // Бонусные рубли
-        if (payment >= 1000) {
+        if (payment > 1000) {
             bonus = payment / 100 * 1;
         } else {
             bonus = 0;
